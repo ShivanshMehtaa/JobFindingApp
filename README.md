@@ -26,11 +26,13 @@ This is a job finding application built using the MERN (MongoDB, Express.js, Rea
    git clone https://github.com/yourusername/mern-job-finder.git
 
 2. Install dependencies
+   ```bash
     cd mern-job-finder
     cd client && npm install
     cd ../server && npm install
 
 3. Setup your cloudinary account and fill the details in the .env file in server
+   ```bash
     PORT=5000
     MONGODB_URI=your_mongodb_uri
     CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
@@ -38,5 +40,6 @@ This is a job finding application built using the MERN (MongoDB, Express.js, Rea
     CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 4. Start the server and client
+```bash
      cd server && npm start
      cd client && npm start
